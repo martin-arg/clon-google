@@ -1,17 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 body {
     background: #fff;
     display: flex;
-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+
+
     
 }
 
-
 nav{    
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
     }
 
 .botonesNav {
@@ -29,12 +34,12 @@ nav{
     padding: 15px;
 }
 
-
-
 main {
-
+display: flex;
+flex-direction: column;
 margin-top: 35px;
-flex-grow: 1;
+flex: 1;
+
 
 
 }
@@ -46,10 +51,6 @@ main div {
     margin-top: 20px;
     width: 45%;
     padding: 8px;
-
-
-
-
 
 }
 
@@ -82,22 +83,18 @@ main div {
 }
 
 footer{
-    
-    
-    
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    
-    flex-grow: 0;
     background: #f2f2f2;
 }
 
 #pais {
     text-align: left;
     padding: 15px 30px;
-    display: block;
+    
 }
 .piedepagina{
-    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -106,10 +103,6 @@ footer{
 
 .partes{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    
 }
 
 .partes p {
