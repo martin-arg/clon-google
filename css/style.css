@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -8,40 +9,47 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
-
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8rem;
     
 }
 
 nav{    
+    padding: 15px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: flex-end;
     }
 
-.botonesNav {
+ul {
+    list-style-type: none;
     display: flex;
+    align-items:center; 
     
-    padding: 15px;
-    padding-bottom: 15px;
+    }
+ul li {
     
-    justify-content: flex-end;
-    flex-basis: auto;
-
+    
+    padding: 5px;
+    
     
 }
-.botonesNav p {
-    padding: 15px;
-}
 
+
+#acceder {
+    color: white;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    font-family: 'Google Sans','Roboto,RobotoDraft',Helvetica,Arial,sans-serif;
+    padding: 7px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    
+
+}
 main {
-display: flex;
-flex-direction: column;
 margin-top: 35px;
-flex: 1;
-
-
-
 }
 
 main div {
@@ -87,11 +95,13 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     background: #f2f2f2;
+    margin-top: auto;
 }
 
 #pais {
     text-align: left;
     padding: 15px 30px;
+    font-size: 15px;
     
 }
 .piedepagina{
